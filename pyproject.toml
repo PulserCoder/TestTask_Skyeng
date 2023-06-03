@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "testtask-skyeng"
+version = "0.1.0"
+description = ""
+authors = ["PulserCoder <92484659+PulserCoder@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "testtask_skyeng"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.25.1"
+sqlalchemy = "^2.0.15"
+jinja2 = "^3.1.2"
+openai = "^0.27.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
