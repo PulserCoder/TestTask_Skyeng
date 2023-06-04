@@ -1,7 +1,7 @@
 FROM python:3.10-slim
 
-WORKDIR /code
-COPY requirements.txt .
-RUN pip install -r requirements.txt
+WORKDIR CODE/
+COPY req.txt .
+RUN pip install -r req.txt
 COPY . .
 CMD python run.py

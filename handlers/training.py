@@ -12,7 +12,7 @@ from handlers.choose_theme import topic_cd
 from handlers.states import GetAnswers
 from loader import dp, bot
 
-GIF_COUNTDOWN = 'static/gifs/Обратный отсчет 3-2-1-0.gif'
+GIF_COUNTDOWN = 'static/gifs/1_2_3.gif'
 GIF_PREPARATION = 'static/gifs/Preparation 20 sec.mp4'
 GIF_RECORDING = 'static/gifs/Recording 40 sec.mp4'
 TASK_TEMPLATE = 'handlers/templates/task_text.html'

@@ -3,7 +3,6 @@ from typing import List
 from aiogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils.callback_data import CallbackData
 from jinja2 import Template
-
 from loader import dp
 
 themes = [

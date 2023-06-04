@@ -24,7 +24,7 @@ async def show_menu(call: CallbackQuery) -> None:
 
 @dp.callback_query_handler(text='faq_show_task', state='*')
 async def show_task(call: CallbackQuery) -> None:
-    photo = open('static/images/example_task.png', 'rb')
+    photo = open('./static/images/example_task.png', 'rb')
     template = Template(open('handlers/templates/faq/show_task.html').read())
     await bot.delete_message(chat_id=call.message.chat.id, message_id=call.message.message_id)
     await bot.send_photo(chat_id=call.message.chat.id,
