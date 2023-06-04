@@ -6,6 +6,7 @@ from handlers.markups import faq_markup, back_faq_menu
 from loader import dp, bot
 
 
+@dp.callback_query_handler(text='back', state='*')
 @dp.callback_query_handler(text='back_to_faq', state='*')
 @dp.callback_query_handler(text='quick_start', state='*')
 async def show_menu(call: CallbackQuery) -> None:

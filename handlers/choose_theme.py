@@ -7,14 +7,14 @@ from jinja2 import Template
 from loader import dp
 
 themes = [
-    '​​ 𝗥𝗔𝗡𝗗𝗢𝗠 ​​',
+    '​​ 𝗥𝗔𝗡𝗗𝗢𝗠 ​​ (DONT WORK)',
     'Повседневная жизнь',
-    'Жизнь в городе и селе',
-    'Общение в школе, семье',
-    'Здоровье и забота о нём',
-    'Досуг молодежи: поиск по интересам',
-    'Природа и проблемы экологии',
-    'Информационные технологии'
+    'DONT WORK',
+    'DONT WORK',
+    'DONT WORK',
+    'DONT WORK',
+    'DONT WORK',
+    'DONT WORK'
 ]
 
 cd_walk = CallbackData("theme_choose", "c")
