@@ -53,7 +53,7 @@ async def get_theme(call: CallbackQuery, callback_data: dict):
         raise
 
 
-@dp.callback_query_handler(text='start_task')
+@dp.callback_query_handler(text='start_task', state='*')
 async def start_training(call: CallbackQuery):
     template = Template(open('handlers/templates/choosing.html').read())
     await call.message.edit_text(text=template.render(),
